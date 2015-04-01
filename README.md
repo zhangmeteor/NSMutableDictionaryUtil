@@ -5,6 +5,7 @@ This tool is a tool to solve the condition: you need to initialize a NSMutableDi
 
 
 ##Usage
+the param count must be all elements you need to initialize with.like example below,there's two object need to be save in the Dictionary,so the count must be 2.
 
     #import "NSMutableDictionary+JMSGSafetyLiteral.h"
     NSMutableDictionary *exampleDictionary = [NSMutableDictionary JMSGDictionaryElementCount:2 WithObjectsAndKeys:object,@"key",object2,@"key2"];
